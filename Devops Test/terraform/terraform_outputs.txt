@@ -1,0 +1,3 @@
+ALB DNS name: my-devops-test-alb-123456.us-east-1.elb.amazonaws.com
+ECS cluster name: devops-test-ecs-dev
+Service name: devops-test-service
