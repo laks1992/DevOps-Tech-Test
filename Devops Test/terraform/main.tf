@@ -8,7 +8,7 @@ module "ecs_cluster" {
   source = "./modules/ecs_cluster"
   project = var.project
   env     = var.env
-  ami_id = "ami-0c02fb55956c7d316" # replace with ECS-optimized AMI in your region
+  ami_id = "ami-0c02fb55956c7d316" #
   subnet_ids = module.network.public_subnet_ids
 }
 
