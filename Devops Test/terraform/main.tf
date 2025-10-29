@@ -77,5 +77,5 @@ resource "aws_ecs_service" "app" {
     container_name   = "app"
     container_port   = 3000
   }
-  depends_on = [aws_lb_listener.http]
+  # depends_on = [aws_lb_listener.http]
 }
